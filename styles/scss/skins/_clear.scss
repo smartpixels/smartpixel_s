@@ -1,0 +1,7 @@
+//Custom Skin for your wordpress theme
+
+//@import 'yourskingoeshere';
+
+//To make sure we can override other style hierrachy we need to make this the last file compiled. So don't add imports below.
+
+@import 'override';

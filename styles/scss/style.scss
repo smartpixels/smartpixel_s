@@ -1,0 +1,43 @@
+/*
+Theme Name: smartpixel_s
+Theme URI: http://www.smartpixels.net/
+Author: Arul Prakash
+Author URI: http://www.smartpixels.net
+Description: Smartpixels Starter Theme Based On Underscores And Foundation
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: smartpixel_s
+Domain Path: /languages/
+
+
+-------------------------------------------------------------*/
+
+// configure the style from settings
+@import 'default/settings';
+
+// reset styles should stay at the top
+@import 'default/reset';
+
+// move mixins to their own partial
+@import 'default/mixins';
+
+// Defaults from Underscores WP Theme
+@import 'default/underscores';
+
+// feel free to add any new files you want; if you add them this list they'll be included
+
+
+//Foundation Framework Start
+
+@import 'foundation/functions';
+@import 'foundation/settings';
+@import 'foundation/components';
+
+//Foundation Framework End
+
+//Custom Skin Start
+
+@import 'skins/clear';
+
+//Custom Skin End
